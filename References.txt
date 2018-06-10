@@ -1,0 +1,12 @@
+Tiles, UI, Background: Kenny
+
+FireBalls Texture:
+https://opengameart.org/content/high-res-fire-ball
+
+Sound:
+MainMenuTheme: https://opengameart.org/content/airship-song-orchestral-remix
+Yesterbreeze: https://opengameart.org/content/rpg-music
+Fireball sound: https://opengameart.org/content/spell-4-fire
+
+Font:
+Black Chancery https://www.dafont.com/black-chancery.font
