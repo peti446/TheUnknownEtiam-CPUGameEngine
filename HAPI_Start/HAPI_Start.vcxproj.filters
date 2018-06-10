@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Gaphics System">
+      <UniqueIdentifier>{5f75752e-3545-4f59-b356-534540121cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{04167010-d75a-4400-a97e-efc5597602d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{55ff2e21-35ae-4a0b-acf9-d91f23a6d9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Entities">
+      <UniqueIdentifier>{89554ca6-69f4-41fd-9861-02986a444a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Entities\UI Entities">
+      <UniqueIdentifier>{b9dd1699-c161-4050-a940-c2ba9da0bb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScenesManegment">
+      <UniqueIdentifier>{c37b8497-4196-4263-b7e2-3e877375f715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScenesManegment\Scenes">
+      <UniqueIdentifier>{ff839f36-8dcd-4e89-98d1-650e8ef03834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound Manager">
+      <UniqueIdentifier>{70b0e3cc-16e7-450e-ac2c-66913a5ca0d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Entities\Tiles">
+      <UniqueIdentifier>{b6d12f74-25db-41e3-a7ae-05edc9ae39e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps Management">
+      <UniqueIdentifier>{6e603d03-2654-4be4-8bb7-a5537400ae72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation\Entities\Spells">
+      <UniqueIdentifier>{d8520386-4e9c-4550-b013-5cd87893fea8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Gaphics System</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystem.cpp">
+      <Filter>Gaphics System</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Simulation\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ScenesManegment</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>ScenesManegment\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>ScenesManegment\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ScenesManegment\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Sound Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Simulation\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.cpp">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TileNoColision.cpp">
+      <Filter>Simulation\Entities\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TileColision.cpp">
+      <Filter>Simulation\Entities\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TMap.cpp">
+      <Filter>Maps Management</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorEntity.cpp">
+      <Filter>Simulation\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Simulation\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgresBar.cpp">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEntity.cpp">
+      <Filter>Simulation\Entities\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfoPanel.cpp">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyInfoPanel.cpp">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>ScenesManegment\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Texture.hpp">
+      <Filter>Gaphics System</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSystem.hpp">
+      <Filter>Gaphics System</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Simulation\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.hpp">
+      <Filter>ScenesManegment</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.hpp">
+      <Filter>ScenesManegment\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.hpp">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>ScenesManegment\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.hpp">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.hpp">
+      <Filter>ScenesManegment\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Sound Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Simulation\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.hpp">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TileColision.hpp">
+      <Filter>Simulation\Entities\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TileNoColision.hpp">
+      <Filter>Simulation\Entities\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TMap.hpp">
+      <Filter>Maps Management</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorEntity.h">
+      <Filter>Simulation\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.hpp">
+      <Filter>Simulation\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgresBar.hpp">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEntity.hpp">
+      <Filter>Simulation\Entities\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfoPanel.hpp">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyInfoPanel.h">
+      <Filter>Simulation\Entities\UI Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.hpp">
+      <Filter>ScenesManegment\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

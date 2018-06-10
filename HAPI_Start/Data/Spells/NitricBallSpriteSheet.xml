@@ -1,0 +1,8 @@
+<textureatlas xmlns="http://www.w3.org/1999/xhtml" imagepath="NitricBallSpriteSheet.png">
+	<subtexture name="0" x="0" y="0" width="40" height="16"/>
+	<subtexture name="1" x="41" y="0" width="40" height="16"/>
+	<subtexture name="2" x="84" y="0" width="40" height="16"/>
+	<subtexture name="3" x="0" y="16" width="40" height="16"/>
+	<subtexture name="4" x="41" y="16" width="40" height="16"/>
+	<subtexture name="5" x="84" y="16" width="40" height="16"/>
+</textureatlas>
